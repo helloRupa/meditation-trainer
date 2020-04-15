@@ -16,4 +16,3 @@ button.addEventListener('click', () => {
   setStartTime();
   updateInterface();
 });
-
