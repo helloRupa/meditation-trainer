@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Meditation Trainer</title>
+  <meta name="description" content="Just Breathe">
+  <meta name="author" content="Flatiron">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,700|Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./scripts/data.js"></script>
+  <script src="./scripts/math.js"></script>
+  <script src="./scripts/interface.js"></script>
+  <script defer src="./scripts/meditation.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Meditation Trainer</h1>
+  </header>
+
+  <main>
+    <section class="flex instructions">
+      <div>
+        <button>Button Text Here</button>
+      </div>
+
+      <div>
+        <p>Instructions Go Here</p>
+      </div>
+    </section>
+
+    <section class="flex information">
+      <div class="breath-log">
+        <h2>Breath Log</h2>
+        <ul>
+          <li>No Breaths Logged Yet</li>
+        </ul>
+      </div>
+
+      <div class="stats">
+        <h2>Stats</h2>
+        <ul>
+          <li><span class="label">Mean</span><span id="mean">Null</span></li>
+          <li><span class="label">Longest</span><span id="longest">Null</span></li>
+          <li><span class="label">Shortest</span><span id="shortest">Null</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
